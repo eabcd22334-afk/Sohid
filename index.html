@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="bn" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>প্রফেসর মো: শহিদুল ইসলাম </title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background-color: #0b1f1a;
+            color: #ffffff;
+        }
+        /* Custom Scrollbar hide for clean horizontal scroll */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        @keyframes spin-slow {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .animate-spin-slow {
+            animation: spin-slow 15s linear infinite;
+        }
+    </style>
+</head>
+<body class="bg-[#0b1f1a] text-white selection:bg-teal-500 selection:text-white">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-[#0b1f1a]/90 backdrop-blur-md border-b border-teal-900/50">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-lg font-bold text-teal-300">প্রফেসর শহিদুল ইসলাম</h1>
+            <nav class="hidden md:flex gap-6 text-sm text-gray-300">
+                <a href="#about" class="hover:text-teal-400 transition">পরিচিতি</a>
+                <a href="#vision" class="hover:text-teal-400 transition">উন্নয়ন ভাবনা</a>
+                <a href="#leadership" class="hover:text-teal-400 transition">রাজনৈতিক ঐতিহ্য</a>
+                <a href="#contact" class="hover:text-teal-400 transition">যোগাযোগ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="max-w-4xl mx-auto px-4 pt-12 pb-8 text-center">
+        <h2 class="text-3xl md:text-5xl font-extrabold mb-3 tracking-wide text-white">প্রফেসর মো: শহিদুল ইসলাম</h2>
+        <p class="text-lg md:text-xl text-teal-300 font-medium mb-1">চন্দনপুর ইউনিয়ন পরিষদ নির্বাচন</p>
+        <p class="text-sm md:text-base text-gray-400 mb-8">চন্দনপুর ইউনিয়ন, মেঘনা, কুমিল্লা</p>
+
+        <!-- Advanced Profile Image Container with Multi-layer Background Design -->
+        <div class="relative w-72 h-72 md:w-96 md:h-96 mx-auto flex items-center justify-center">
+            <!-- Outer Glowing Pulse Ring -->
+            <div class="absolute inset-0 bg-gradient-to-tr from-teal-600 via-emerald-500 to-cyan-500 rounded-[40%_60%_70%_30%/40%_50%_60%_50%] animate-pulse opacity-40 blur-xl"></div>
+            
+            <!-- Rotating Dashed/Gradient Border Ring -->
+            <div class="absolute inset-2 border-2 border-dashed border-teal-400/50 rounded-[50%] animate-spin-slow"></div>
+
+            <!-- Secondary Organic Shape Background -->
+            <div class="absolute inset-4 bg-gradient-to-tr from-teal-900 to-teal-700 rounded-[60%_40%_30%_70%/60%_30%_70%_40%] opacity-75 shadow-inner"></div>
+
+            <!-- Inner Glow Effect -->
+            <div class="absolute inset-6 bg-teal-950/80 rounded-[50%] blur-md"></div>
+
+            <!-- Main Image Wrapper -->
+            <div class="relative w-56 h-56 md:w-72 md:h-72 rounded-[60%_40%_30%_70%/60%_30%_70%_40%] overflow-hidden border-4 border-teal-400/40 shadow-2xl bg-teal-950 z-10">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1917278466.jpg?c=original&q=w_860,c_fill" alt="প্রফেসর মো: শহিদুল ইসলাম" class="w-full h-full object-cover transform hover:scale-105 transition duration-500">
+            </div>
+
+            <!-- Decorative Floating Badge / Glow Dots -->
+            <div class="absolute top-4 right-8 w-4 h-4 bg-teal-400 rounded-full blur-[1px] animate-ping"></div>
+            <div class="absolute bottom-8 left-6 w-3 h-3 bg-emerald-300 rounded-full blur-[1px]"></div>
+        </div>
+    </section>
+
+    <!-- Bio / Identity Section -->
+    <section id="about" class="max-w-3xl mx-auto px-4 py-10 border-t border-teal-900/40">
+        <span class="text-teal-400 text-xs font-semibold tracking-widest uppercase">পরিচিতি</span>
+        <h3 class="text-2xl md:text-3xl font-bold mt-1 mb-6 text-teal-100">শিক্ষা, কর্মজীবন ও রাজনৈতিক পরিচয়</h3>
+        
+        <div class="space-y-6 bg-[#0f2923] p-6 md:p-8 rounded-2xl border border-teal-900/50 shadow-lg">
+            <div>
+                <h4 class="text-teal-400 font-semibold text-sm mb-1">শিক্ষাগত যোগ্যতা</h4>
+                <p class="text-lg text-gray-200">MSc in Statistics, University of Chittagong</p>
+            </div>
+            <div>
+                <h4 class="text-teal-400 font-semibold text-sm mb-1">পেশাগত অভিজ্ঞতা</h4>
+                <p class="text-lg text-gray-200">সাবেক অধ্যাপক, ড. খন্দকার মোশাররফ হোসেন কলেজ</p>
+            </div>
+            <div>
+                <h4 class="text-teal-400 font-semibold text-sm mb-1">রাজনৈতিক ও সামাজিক ভূমিকা</h4>
+                <p class="text-lg text-gray-200">মেঘনা উপজেলা বিএনপির যুগ্ন আহ্বায়ক</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Vision Section (Scroll-Triggered Auto Swipe) -->
+    <section id="vision" class="py-10">
+        <div class="max-w-3xl mx-auto px-4 mb-6">
+            <h3 class="text-2xl md:text-3xl font-bold text-teal-100 border-b border-teal-900/40 pb-4">প্রস্তাবিত উন্নয়ন ভাবনা</h3>
+            
+        </div>
+
+        <!-- Horizontal Scroll Container -->
+        <div id="autoSlider" class="flex overflow-x-auto no-scrollbar gap-6 px-4 md:px-[max(1rem,calc((100vw-48rem)/2))] snap-x snap-mandatory py-2 scroll-smooth">
+            
+            <!-- Item 1 -->
+            <div class="min-w-[280px] md:min-w-[340px] max-w-[340px] bg-[#0f2923] p-6 rounded-2xl border border-teal-900/40 hover:border-teal-500/50 transition snap-start flex-shrink-0 flex flex-col justify-between shadow-xl">
+                <div>
+                    <h4 class="text-teal-300 font-bold text-lg mb-3">১. কৃষক ও কৃষির উন্নয়ন</h4>
+                    <p class="text-gray-300 text-sm md:text-base">কৃষকের উৎপাদন, ন্যায্য মূল্য, কৃষি সহায়তা এবং গ্রামীণ অর্থনীতিকে শক্তিশালী করার প্রতি গুরুত্ব।</p>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="min-w-[280px] md:min-w-[340px] max-w-[340px] bg-[#0f2923] p-6 rounded-2xl border border-teal-900/40 hover:border-teal-500/50 transition snap-start flex-shrink-0 flex flex-col justify-between shadow-xl">
+                <div>
+                    <h4 class="text-teal-300 font-bold text-lg mb-3">২. পরিবারভিত্তিক সামাজিক সহায়তা</h4>
+                    <p class="text-gray-300 text-sm md:text-base mb-3">অসচ্ছল ও প্রয়োজনগ্রস্ত পরিবারগুলোর জন্য সামাজিক সহায়তা এবং পরিবারকেন্দ্রিক কল্যাণমূলক উদ্যোগকে গুরুত্ব দেওয়া।</p>
+                </div>
+                <span class="inline-block bg-red-950/60 text-red-300 text-xs px-3 py-1 rounded-full border border-red-900/50 w-fit">Family Card ধারণার সঙ্গে সামঞ্জস্যপূর্ণ।</span>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="min-w-[280px] md:min-w-[340px] max-w-[340px] bg-[#0f2923] p-6 rounded-2xl border border-teal-900/40 hover:border-teal-500/50 transition snap-start flex-shrink-0 flex flex-col justify-between shadow-xl">
+                <div>
+                    <h4 class="text-teal-300 font-bold text-lg mb-3">৩. পানি, খাল ও সেচব্যবস্থা</h4>
+                    <p class="text-gray-300 text-sm md:text-base">খাল-নালা সংস্কার, পানি নিষ্কাশন, সেচ এবং জলাবদ্ধতা কমানোর মতো স্থানীয় সমস্যাগুলোকে গুরুত্ব দেওয়া। BNP-এর সাম্প্রতিক কার্যক্রমে canal excavation-এ উল্লেখ করা হয়েছে।</p>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="min-w-[280px] md:min-w-[340px] max-w-[340px] bg-[#0f2923] p-6 rounded-2xl border border-teal-900/40 hover:border-teal-500/50 transition snap-start flex-shrink-0 flex flex-col justify-between shadow-xl">
+                <div>
+                    <h4 class="text-teal-300 font-bold text-lg mb-3">৪. যোগাযোগ ও গ্রামীণ অবকাঠামো</h4>
+                    <p class="text-gray-300 text-sm md:text-base">রাস্তা, সেতু, যোগাযোগ ব্যবস্থা এবং প্রয়োজনীয় স্থানীয় অবকাঠামোর উন্নয়নের মাধ্যমে মানুষের দৈনন্দিন চলাচল সহজ করা।</p>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="min-w-[280px] md:min-w-[340px] max-w-[340px] bg-[#0f2923] p-6 rounded-2xl border border-teal-900/40 hover:border-teal-500/50 transition snap-start flex-shrink-0 flex flex-col justify-between shadow-xl">
+                <div>
+                    <h4 class="text-teal-300 font-bold text-lg mb-3">৫. শিক্ষা ও তরুণদের দক্ষতা</h4>
+                    <p class="text-gray-300 text-sm md:text-base">শিক্ষার সুযোগের পাশাপাশি তরুণদের দক্ষতা উন্নয়ন, খেলাধুলা ও কর্মসংস্থানের সুযোগ তৈরিতে গুরুত্ব।</p>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="min-w-[280px] md:min-w-[340px] max-w-[340px] bg-[#0f2923] p-6 rounded-2xl border border-teal-900/40 hover:border-teal-500/50 transition snap-start flex-shrink-0 flex flex-col justify-between shadow-xl">
+                <div>
+                    <h4 class="text-teal-300 font-bold text-lg mb-3">৬. স্বাস্থ্য ও জনকল্যাণ</h4>
+                    <p class="text-gray-300 text-sm md:text-base">সাধারণ মানুষের কাছে প্রয়োজনীয় স্বাস্থ্যসেবা সহজলভ্য করা এবং অসচ্ছল মানুষের কল্যাণে গুরুত্ব দেওয়া।</p>
+                </div>
+            </div>
+
+            <!-- Item 7 -->
+            <div class="min-w-[280px] md:min-w-[340px] max-w-[340px] bg-[#0f2923] p-6 rounded-2xl border border-teal-900/40 hover:border-teal-500/50 transition snap-start flex-shrink-0 flex flex-col justify-between shadow-xl">
+                <div>
+                    <h4 class="text-teal-300 font-bold text-lg mb-3">৭. মাদকমুক্ত ও নিরাপদ সমাজ</h4>
+                    <p class="text-gray-300 text-sm md:text-base">মাদকাসক্তি প্রতিরোধ, তরুণদের সুস্থ ও ইতিবাচক কর্মকাণ্ডে সম্পৃক্ত করা এবং নিরাপদ সামাজিক পরিবেশ গড়ে তোলার বিষয়ে গুরুত্ব। BNP-এর সাম্প্রতিক National Standing Committee meeting-এও মাদক সমস্যার বিরুদ্ধে পদক্ষেপের কথা বলা হয়েছে।</p>
+                </div>
+            </div>
+
+            <!-- Item 8 -->
+            <div class="min-w-[280px] md:min-w-[340px] max-w-[340px] bg-[#0f2923] p-6 rounded-2xl border border-teal-900/40 hover:border-teal-500/50 transition snap-start flex-shrink-0 flex flex-col justify-between shadow-xl">
+                <div>
+                    <h4 class="text-teal-300 font-bold text-lg mb-3">৮. স্বচ্ছতা, জবাবদিহি ও নাগরিক সেবা</h4>
+                    <p class="text-gray-300 text-sm md:text-base">স্থানীয় সেবায় স্বচ্ছতা, জবাবদিহি, মানুষের অভিযোগ শোনা এবং অপ্রয়োজনীয় হয়রানি বা বিলম্ব কমানোর প্রতি গুরুত্ব। Tarique Rahman-এর ২০২৬ সালের DC Conference বক্তব্যে জনসেবায় জোর দেওয়া হয়েছে।</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Political Tradition & Leadership Section -->
+    <section id="leadership" class="max-w-3xl mx-auto px-4 py-10">
+        <div class="text-center mb-10">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-red-500 tracking-wider mb-2">সবার আগে বাংলাদেশ</h2>
+            <h3 class="text-xl font-semibold text-teal-200">বাংলাদেশের রাজনৈতিক ঐতিহ্য ও নেতৃত্ব</h3>
+            <p class="text-gray-300 mt-2 text-sm max-w-xl mx-auto">প্রেসিডেন্ট জিয়াউর রহমানের নেতৃত্বে বীর মুক্তিযোদ্ধা এবং বাংলাদেশী জাতীয়তাবাদী আদর্শে বিশ্বাসী ব্যক্তিবর্গ ১৯৭৮ সালে দলটি প্রতিষ্ঠা করেন।</p>
+        </div>
+
+        <div class="space-y-6">
+            <!-- Leader 1 -->
+            <div class="bg-[#0f2923] p-6 rounded-2xl border border-teal-900/50 flex flex-col md:flex-row items-center gap-6">
+                <img src="https://cdn.britannica.com/41/286741-050-DE0BA47F/Ziaur-Rahman-Bangladesh-President-bangladesh-nationalist-party.jpg?w=400&h=300&c=crop" alt="শহীদ প্রেসিডেন্ট জিয়াউর রহমান" class="w-24 h-24 rounded-full object-cover border-2 border-teal-500/40 flex-shrink-0">
+                <div class="text-center md:text-left">
+                    <h4 class="text-xl font-bold text-white">শহীদ প্রেসিডেন্ট জিয়াউর রহমান</h4>
+                    <p class="text-teal-400 text-sm font-medium mb-1">প্রতিষ্ঠাতা, বাংলাদেশ জাতীয়তাবাদী দল (BNP)</p>
+                    <p class="text-gray-300 text-sm">বাংলাদেশের সাবেক রাষ্ট্রপতি ও মুক্তিযুদ্ধের অন্যতম সেক্টর কমান্ডার।</p>
+                </div>
+            </div>
+
+            <!-- Leader 2 -->
+            <div class="bg-[#0f2923] p-6 rounded-2xl border border-teal-900/50 flex flex-col md:flex-row items-center gap-6">
+                <img src="https://www.bssnews.net/assets/news_photos/2025/12/30/image-346222-1767075013.jpg" alt="বেগম খালেদা জিয়া" class="w-24 h-24 rounded-full object-cover border-2 border-teal-500/40 flex-shrink-0">
+                <div class="text-center md:text-left">
+                    <h4 class="text-xl font-bold text-white">বেগম খালেদা জিয়া</h4>
+                    <p class="text-teal-400 text-sm font-medium mb-1">চেয়ারপারসন</p>
+                    <p class="text-gray-300 text-sm">বাংলাদেশের প্রথম নারী প্রধানমন্ত্রী এবং জাতীয়তাবাদী শক্তির প্রতীক।</p>
+                </div>
+            </div>
+
+            <!-- Leader 3 -->
+            <div class="bg-[#0f2923] p-6 rounded-2xl border border-teal-900/50 flex flex-col md:flex-row items-center gap-6">
+                <img src="https://thehawk.sgp1.cdn.digitaloceanspaces.com/213cae8c-2f07-4a70-87fe-116aa0ba1864/202512243618213-1f8456fc-540f-4275-9480-89b86f40cb56.jpg" alt="তারেক রহমান" class="w-24 h-24 rounded-full object-cover border-2 border-teal-500/40 flex-shrink-0">
+                <div class="text-center md:text-left">
+                    <h4 class="text-xl font-bold text-white">তারেক রহমান</h4>
+                    <p class="text-teal-400 text-sm font-medium mb-1">চেয়ারম্যান, বাংলাদেশ জাতীয়তাবাদী দল (BNP)</p>
+                    <p class="text-gray-300 text-sm">দলের নেতৃত্ব ও সাংগঠনিক কার্যক্রমে গুরুত্বপূর্ণ ভূমিকা পালন করছেন।</p>
+                </div>
+            </div>
+
+            <!-- Leader 4 -->
+            <div class="bg-[#0f2923] p-6 rounded-2xl border border-teal-900/50 flex flex-col md:flex-row items-center gap-6">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrbmBsFLeDCrhXkfooE_oZiMe8AxmvkSW2lhtj_KxtTtmKojgtFKA2jrOb&s=10" alt="ড. খন্দকার মোশাররফ হোসেন" class="w-24 h-24 rounded-full object-cover border-2 border-teal-500/40 flex-shrink-0">
+                <div class="text-center md:text-left">
+                    <h4 class="text-xl font-bold text-white">ড. খন্দকার মোশাররফ হোসেন</h4>
+                    <p class="text-teal-400 text-sm font-medium mb-1">সংসদ সদস্য, কুমিল্লা-১</p>
+                    <p class="text-gray-300 text-sm">বাংলাদেশ জাতীয়তাবাদী দলের জ্যেষ্ঠ নেতা ও সাবেক মন্ত্রী।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notice / Additional Info Box -->
+    <section class="max-w-3xl mx-auto px-4 py-6">
+        <div class="bg-amber-500/90 text-gray-950 font-bold p-6 rounded-xl text-center shadow-lg text-lg">
+            আরও তথ্য আসছে...
+        </div>
+    </section>
+
+    <!-- Contact & Footer Section -->
+    <footer id="contact" class="max-w-3xl mx-auto px-4 py-10 border-t border-teal-900/40 mt-8">
+        <div class="space-y-4 mb-8">
+            <div class="bg-[#0f2923] p-5 rounded-xl border border-teal-900/40">
+                <span class="text-xs text-teal-400 block mb-1 font-semibold uppercase">Call us</span>
+                <a href="tel:01816419321" class="text-lg font-bold text-white hover:text-teal-300 transition">01816419321</a>
+            </div>
+
+            <div class="bg-[#0f2923] p-5 rounded-xl border border-teal-900/40">
+                <span class="text-xs text-teal-400 block mb-1 font-semibold uppercase">Send us a note</span>
+                <a href="mailto:shahidulislam@gmail.com" class="text-lg font-bold text-white hover:text-teal-300 transition">shahidulislam@gmail.com</a>
+            </div>
+
+            <div class="bg-[#0f2923] p-5 rounded-xl border border-teal-900/40">
+                <span class="text-xs text-teal-400 block mb-2 font-semibold uppercase">Follow us</span>
+                <div class="flex gap-4 text-white text-lg">
+                    <a href="#" class="hover:text-teal-400 transition">𝕏</a>
+                    <a href="#" class="hover:text-teal-400 transition">in</a>
+                    <a href="#" class="hover:text-teal-400 transition">📷</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center text-sm text-gray-400 space-y-3 pt-6 border-t border-teal-900/30">
+            <div class="flex justify-center gap-4 text-xs">
+                <a href="#" class="hover:text-teal-400">Home</a> &bull; 
+                <a href="#" class="hover:text-teal-400">About us</a> &bull; 
+                <a href="#" class="hover:text-teal-400">Services</a> &bull; 
+                <a href="#" class="hover:text-teal-400">Privacy Policy</a>
+            </div>
+            <p>Copyright &copy; shahidulislam</p>
+            <p class="text-xs text-teal-500 font-medium"> created by J.I.Sagor 
+            designed by S.H.Ratul </p>
+        </div>
+    </footer>
+
+    <!-- Scroll-Triggered Auto Swipe JavaScript -->
+    <script>
+        const slider = document.getElementById('autoSlider');
+        let scrollInterval;
+
+        function startAutoScroll() {
+            if (scrollInterval) return;
+            scrollInterval = setInterval(() => {
+                if (slider.scrollLeft + slider.clientWidth >= slider.scrollWidth - 10) {
+                    slider.scrollTo({ left: 0, behavior: 'smooth' });
+                } else {
+                    slider.scrollBy({ left: 320, behavior: 'smooth' });
+                }
+            }, 2500);
+        }
+
+        function stopAutoScroll() {
+            clearInterval(scrollInterval);
+            scrollInterval = null;
+        }
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    startAutoScroll();
+                } else {
+                    stopAutoScroll();
+                }
+            });
+        }, { threshold: 0.3 });
+
+        observer.observe(document.getElementById('vision'));
+
+        slider.addEventListener('mouseenter', stopAutoScroll);
+        slider.addEventListener('mouseleave', startAutoScroll);
+        slider.addEventListener('touchstart', stopAutoScroll);
+        slider.addEventListener('touchend', startAutoScroll);
+    </script>
+
+</body>
+</html>
+
